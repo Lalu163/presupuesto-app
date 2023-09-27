@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { CabeceraComponent } from './cabecera/cabecera.component';
+import { IngresoComponent } from './ingreso/ingreso.component';
+import { GastoComponent } from './gasto/gasto.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CabeceraComponent
+    CabeceraComponent,
+    IngresoComponent,
+    GastoComponent
   ],
   imports: [
     BrowserModule
