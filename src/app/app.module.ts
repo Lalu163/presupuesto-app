@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { CabeceraComponent } from './cabecera/cabecera.component';
 import { IngresoComponent } from './ingreso/ingreso.component';
 import { GastoComponent } from './gasto/gasto.component';
+import { FormularioComponent } from './formulario/formulario.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CabeceraComponent,
     IngresoComponent,
-    GastoComponent
+    GastoComponent,
+    FormularioComponent
   ],
   imports: [
     BrowserModule
